@@ -1,0 +1,62 @@
+/*
+Marshall Huckins
+Assignment 2
+style.css
+Richard Krasso
+WEB-330
+*/
+
+body {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    background-color: grey;
+    color: #FFF;
+    margin-left: 10%;
+    padding: 0;
+}
+
+/* Title styling */
+h1 {
+   color: #000;
+}
+
+/* Form styling */
+form {
+    background-color: #7300D0;
+    padding: 15px;
+    display: block;
+	box-align: left;
+    margin-top: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Label and input styling */
+label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input, select {
+    width: 75%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+	display: block;
+	
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #EB4448;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #FFF;
+}
