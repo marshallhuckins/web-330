@@ -1,0 +1,53 @@
+/*
+  Pragmatic JavaScript
+  Chapter 2
+  Programming Assignment
+
+  Author: Marshall Huckins
+  Date: 11/23/24
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:beige;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.form-container {
+  background: white;
+  padding: 15px;
+  border-radius: 9px;
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select, button {
+  width: 95%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+#message {
+  font-size: 15px;
+  color: #000;
+}
